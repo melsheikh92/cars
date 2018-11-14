@@ -14,6 +14,19 @@
 		05EE7EEC219C7B2600853256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05EE7EEB219C7B2600853256 /* Assets.xcassets */; };
 		05EE7EEF219C7B2600853256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EE7EED219C7B2600853256 /* LaunchScreen.storyboard */; };
 		05EE7EFA219C7B2700853256 /* CarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7EF9219C7B2700853256 /* CarsTests.swift */; };
+		05EE7F0E219C7DDB00853256 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F0B219C7DDA00853256 /* BaseModel.swift */; };
+		05EE7F0F219C7DDB00853256 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F0C219C7DDB00853256 /* BaseViewModel.swift */; };
+		05EE7F10219C7DDB00853256 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F0D219C7DDB00853256 /* BaseViewController.swift */; };
+		05EE7F19219C7E2600853256 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F12219C7E2600853256 /* Dictionary.swift */; };
+		05EE7F1A219C7E2600853256 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F13219C7E2600853256 /* StringExtensions.swift */; };
+		05EE7F1B219C7E2600853256 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F14219C7E2600853256 /* UIColor+Hex.swift */; };
+		05EE7F1C219C7E2600853256 /* UIImage+tintingColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F15219C7E2600853256 /* UIImage+tintingColor.swift */; };
+		05EE7F1D219C7E2600853256 /* UITextFiled+undrline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F16219C7E2600853256 /* UITextFiled+undrline.swift */; };
+		05EE7F1E219C7E2600853256 /* UIView+resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F17219C7E2600853256 /* UIView+resources.swift */; };
+		05EE7F1F219C7E2600853256 /* UIviewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F18219C7E2600853256 /* UIviewController+extension.swift */; };
+		05EE7F21219C7EBC00853256 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F20219C7EBC00853256 /* Constants.swift */; };
+		05EE7F24219C7EFA00853256 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F23219C7EFA00853256 /* DeviceHelper.swift */; };
+		05EE7F26219C7F0400853256 /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F25219C7F0400853256 /* ApiHelper.swift */; };
 		774504A7C869CF23CFA8836C /* Pods_CarsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EF9BF625C0507D4F24C294 /* Pods_CarsTests.framework */; };
 		BBDF7E236D5841CDC1E1328D /* Pods_Cars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E762EED2D5F46C3986895C36 /* Pods_Cars.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +53,19 @@
 		05EE7EF5219C7B2700853256 /* CarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05EE7EF9219C7B2700853256 /* CarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsTests.swift; sourceTree = "<group>"; };
 		05EE7EFB219C7B2700853256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05EE7F0B219C7DDA00853256 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		05EE7F0C219C7DDB00853256 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		05EE7F0D219C7DDB00853256 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		05EE7F12219C7E2600853256 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		05EE7F13219C7E2600853256 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		05EE7F14219C7E2600853256 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		05EE7F15219C7E2600853256 /* UIImage+tintingColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+tintingColor.swift"; sourceTree = "<group>"; };
+		05EE7F16219C7E2600853256 /* UITextFiled+undrline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextFiled+undrline.swift"; sourceTree = "<group>"; };
+		05EE7F17219C7E2600853256 /* UIView+resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+resources.swift"; sourceTree = "<group>"; };
+		05EE7F18219C7E2600853256 /* UIviewController+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIviewController+extension.swift"; sourceTree = "<group>"; };
+		05EE7F20219C7EBC00853256 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		05EE7F23219C7EFA00853256 /* DeviceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceHelper.swift; sourceTree = "<group>"; };
+		05EE7F25219C7F0400853256 /* ApiHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
 		30615CD1FBF0B576A96C6C30 /* Pods-Cars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cars/Pods-Cars.release.xcconfig"; sourceTree = "<group>"; };
 		37EF9BF625C0507D4F24C294 /* Pods_CarsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		763522E8AEDFDCEBBEE20736 /* Pods-Cars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cars/Pods-Cars.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,8 +117,17 @@
 		05EE7EE0219C7B2400853256 /* Cars */ = {
 			isa = PBXGroup;
 			children = (
+				05EE7F22219C7EDA00853256 /* Utility */,
+				05EE7F11219C7E2600853256 /* Extentions */,
+				05EE7F0A219C7D7E00853256 /* Base */,
+				05EE7F09219C7D7400853256 /* ViewController */,
+				05EE7F08219C7D6D00853256 /* ViewModel */,
+				05EE7F07219C7D6500853256 /* Model */,
+				05EE7F06219C7D5C00853256 /* API */,
+				05EE7F05219C7D5200853256 /* Storyboards */,
+				05EE7F04219C7D4B00853256 /* Views */,
 				05EE7EE1219C7B2400853256 /* AppDelegate.swift */,
-				05EE7EE3219C7B2400853256 /* ViewController.swift */,
+				05EE7F20219C7EBC00853256 /* Constants.swift */,
 				05EE7EE5219C7B2400853256 /* Main.storyboard */,
 				05EE7EEB219C7B2600853256 /* Assets.xcassets */,
 				05EE7EED219C7B2600853256 /* LaunchScreen.storyboard */,
@@ -109,6 +144,82 @@
 				05EE7EFB219C7B2700853256 /* Info.plist */,
 			);
 			path = CarsTests;
+			sourceTree = "<group>";
+		};
+		05EE7F04219C7D4B00853256 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05EE7F05219C7D5200853256 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		05EE7F06219C7D5C00853256 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		05EE7F07219C7D6500853256 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		05EE7F08219C7D6D00853256 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				05EE7EE3219C7B2400853256 /* ViewController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		05EE7F09219C7D7400853256 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		05EE7F0A219C7D7E00853256 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				05EE7F0B219C7DDA00853256 /* BaseModel.swift */,
+				05EE7F0D219C7DDB00853256 /* BaseViewController.swift */,
+				05EE7F0C219C7DDB00853256 /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		05EE7F11219C7E2600853256 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				05EE7F12219C7E2600853256 /* Dictionary.swift */,
+				05EE7F13219C7E2600853256 /* StringExtensions.swift */,
+				05EE7F14219C7E2600853256 /* UIColor+Hex.swift */,
+				05EE7F15219C7E2600853256 /* UIImage+tintingColor.swift */,
+				05EE7F16219C7E2600853256 /* UITextFiled+undrline.swift */,
+				05EE7F17219C7E2600853256 /* UIView+resources.swift */,
+				05EE7F18219C7E2600853256 /* UIviewController+extension.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		05EE7F22219C7EDA00853256 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				05EE7F25219C7F0400853256 /* ApiHelper.swift */,
+				05EE7F23219C7EFA00853256 /* DeviceHelper.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		AA70A4699370519E7FA448B4 /* Frameworks */ = {
@@ -142,6 +253,7 @@
 				05EE7EDA219C7B2400853256 /* Sources */,
 				05EE7EDB219C7B2400853256 /* Frameworks */,
 				05EE7EDC219C7B2400853256 /* Resources */,
+				5DCD5E263186870E437EDB5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +342,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5DCD5E263186870E437EDB5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cars/Pods-Cars-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize/Localize.framework",
+				"${BUILT_PRODUCTS_DIR}/MJSnackBar/MJSnackBar.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PopItUp/PopItUp.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire+ObjectMapper/RxAlamofire_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftEventBus/SwiftEventBus.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJSnackBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopItUp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftEventBus.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cars/Pods-Cars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6DF0369EB11B2C864A3DE9A6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,9 +427,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05EE7F1E219C7E2600853256 /* UIView+resources.swift in Sources */,
+				05EE7F1A219C7E2600853256 /* StringExtensions.swift in Sources */,
 				05EE7EE4219C7B2400853256 /* ViewController.swift in Sources */,
+				05EE7F1F219C7E2600853256 /* UIviewController+extension.swift in Sources */,
+				05EE7F26219C7F0400853256 /* ApiHelper.swift in Sources */,
+				05EE7F0F219C7DDB00853256 /* BaseViewModel.swift in Sources */,
+				05EE7F1B219C7E2600853256 /* UIColor+Hex.swift in Sources */,
 				05EE7EE2219C7B2400853256 /* AppDelegate.swift in Sources */,
+				05EE7F24219C7EFA00853256 /* DeviceHelper.swift in Sources */,
+				05EE7F1C219C7E2600853256 /* UIImage+tintingColor.swift in Sources */,
+				05EE7F0E219C7DDB00853256 /* BaseModel.swift in Sources */,
+				05EE7F19219C7E2600853256 /* Dictionary.swift in Sources */,
 				05EE7EEA219C7B2400853256 /* Cars.xcdatamodeld in Sources */,
+				05EE7F21219C7EBC00853256 /* Constants.swift in Sources */,
+				05EE7F10219C7DDB00853256 /* BaseViewController.swift in Sources */,
+				05EE7F1D219C7E2600853256 /* UITextFiled+undrline.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
