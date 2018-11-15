@@ -12,7 +12,7 @@ import AlamofireObjectMapper
 import Alamofire
 import RxAlamofire
 import RxAlamofire_ObjectMapper
-class ApiHelper<T:BaseModel> {
+class ApiHelper<T:BaseChatModel> {
     
     func CallApi( apiUrl:String , method:HTTPMethod, parameters: [String: Any]? ,observer: PublishSubject<T> ){
         var headers:[String:String] = [String:String]()

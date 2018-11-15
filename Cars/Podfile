@@ -13,6 +13,8 @@ target 'Cars' do
   pod 'Hue'
   pod 'Localize' , '~> 2.0.5'
   pod 'SwiftEventBus'
+  pod 'Luminous'
+
   # Pods for Cars
 
   target 'CarsTests' do

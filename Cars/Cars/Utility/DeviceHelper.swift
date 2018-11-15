@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+import Luminous
 class DeviceHelper{
     
     static func isIpad ()-> Bool{

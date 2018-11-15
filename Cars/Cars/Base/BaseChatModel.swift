@@ -8,7 +8,7 @@
 
 import Foundation
 import ObjectMapper
-class BaseModel: Mappable{
+class BaseChatModel: Mappable{
     var process_time:String?
     var total_records:Int?
     var error_code:String?

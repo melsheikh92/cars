@@ -16,7 +16,6 @@ class BaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.backBarButtonItem?.title = ""
-        self.navigationController?.navigationBar.installShadow(with: UIColor.black)
         hud.textLabel.text = "Loading"
         snackBar = MJSnackBar(onView: self.view)
     }
@@ -49,14 +48,7 @@ class BaseViewController: UIViewController {
     func dismissKeyboard() {
         self.view.endEditing(true)
     }
-    func pushWebViewController(url:String , title:String, contentType: WebViewContentType) {
-        let    storyboard = UIStoryboard(name: "Book", bundle: nil)
-        let    vc = storyboard.instantiateViewController(withIdentifier: "WebViewController") as! WebViewController
-        vc.stringUrl = url
-        vc.eduKit_title = title
-        vc.contentTyp = contentType
-        navigationController?.pushViewController(vc, animated: true)
-    }
+  
     func installBackImg(){
         self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "back")
         self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named: "back")
