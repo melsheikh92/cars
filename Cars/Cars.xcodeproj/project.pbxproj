@@ -14,10 +14,10 @@
 		0534DD0021AECDFD00F01E53 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534DCFC21AECDFD00F01E53 /* Cars.swift */; };
 		0534DD0121AECDFD00F01E53 /* CarsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534DCFD21AECDFD00F01E53 /* CarsResponseModel.swift */; };
 		0534DD0221AECDFD00F01E53 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534DCFE21AECDFD00F01E53 /* Error.swift */; };
+		0534DD0521AEE1DF00F01E53 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534DD0421AEE1DF00F01E53 /* DBManager.swift */; };
 		0553BFBE219D5A2000D8962C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0553BFBB219D5A2000D8962C /* BaseViewModel.swift */; };
 		0553BFC0219D5A2000D8962C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0553BFBD219D5A2000D8962C /* BaseViewController.swift */; };
 		0553BFC3219D5C5100D8962C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0553BFC2219D5C5100D8962C /* Colors.xcassets */; };
-		0553BFC8219D7A0500D8962C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0553BFC7219D7A0500D8962C /* UserData.swift */; };
 		0553BFCA219D7AC500D8962C /* UINavigationBar+extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0553BFC9219D7AC500D8962C /* UINavigationBar+extentions.swift */; };
 		0553BFCD219DA28300D8962C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0553BFCC219DA28300D8962C /* CardView.swift */; };
 		0553BFD5219DC07E00D8962C /* UIStackView+Separator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0553BFD4219DC07D00D8962C /* UIStackView+Separator.m */; };
@@ -62,10 +62,10 @@
 		0534DCFC21AECDFD00F01E53 /* Cars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
 		0534DCFD21AECDFD00F01E53 /* CarsResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsResponseModel.swift; sourceTree = "<group>"; };
 		0534DCFE21AECDFD00F01E53 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		0534DD0421AEE1DF00F01E53 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		0553BFBB219D5A2000D8962C /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		0553BFBD219D5A2000D8962C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0553BFC2219D5C5100D8962C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		0553BFC7219D7A0500D8962C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		0553BFC9219D7AC500D8962C /* UINavigationBar+extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+extentions.swift"; sourceTree = "<group>"; };
 		0553BFCC219DA28300D8962C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		0553BFD2219DC07C00D8962C /* Cars-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cars-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -129,6 +129,14 @@
 				0534DCF721AEC35C00F01E53 /* Routable.swift */,
 			);
 			path = Routing;
+			sourceTree = "<group>";
+		};
+		0534DD0321AEE1C600F01E53 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0534DD0421AEE1DF00F01E53 /* DBManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		0553BFBA219D5A0400D8962C /* Base */ = {
@@ -224,6 +232,7 @@
 		05EE7EE0219C7B2400853256 /* Cars */ = {
 			isa = PBXGroup;
 			children = (
+				0534DD0321AEE1C600F01E53 /* Manager */,
 				0553BFD0219DC03800D8962C /* External */,
 				0553BFC1219D5C3100D8962C /* Resources */,
 				0553BFBA219D5A0400D8962C /* Base */,
@@ -324,7 +333,6 @@
 			children = (
 				0534DCF421AEC32100F01E53 /* Routing */,
 				05EE7F23219C7EFA00853256 /* DeviceHelper.swift */,
-				0553BFC7219D7A0500D8962C /* UserData.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -558,7 +566,6 @@
 				0553BFD5219DC07E00D8962C /* UIStackView+Separator.m in Sources */,
 				05EE7F1A219C7E2600853256 /* StringExtensions.swift in Sources */,
 				0534DCF621AEC33200F01E53 /* SroryBoards.swift in Sources */,
-				0553BFC8219D7A0500D8962C /* UserData.swift in Sources */,
 				0534DD0121AECDFD00F01E53 /* CarsResponseModel.swift in Sources */,
 				0553BFDE219DC52000D8962C /* gridCell.swift in Sources */,
 				05EE7EE4219C7B2400853256 /* ViewController.swift in Sources */,
@@ -576,6 +583,7 @@
 				05EE7F24219C7EFA00853256 /* DeviceHelper.swift in Sources */,
 				0534DD0221AECDFD00F01E53 /* Error.swift in Sources */,
 				0553BFE1219DC55600D8962C /* CarsViewModel.swift in Sources */,
+				0534DD0521AEE1DF00F01E53 /* DBManager.swift in Sources */,
 				05EE7F1C219C7E2600853256 /* UIImage+tintingColor.swift in Sources */,
 				05EE7F19219C7E2600853256 /* Dictionary.swift in Sources */,
 				05EE7EEA219C7B2400853256 /* Cars.xcdatamodeld in Sources */,

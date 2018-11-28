@@ -1,7 +1,8 @@
 
 
 import Foundation
-struct AuctionInfo : Codable {
+import RealmSwift
+class AuctionInfo : Codable ,Object {
 	let bids : Int?
 	let endDate : Int?
 	let endDateEn : String?

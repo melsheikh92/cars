@@ -1,7 +1,8 @@
 
 
 import Foundation
-struct Cars : Codable {
+import RealmSwift
+class Cars : Codable , Object {
 	let carID : Int?
 	let image : String?
 	let descriptionAr : String?

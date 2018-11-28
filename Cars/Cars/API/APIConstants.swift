@@ -26,11 +26,14 @@ extension CarsAPI:Moya.TargetType{
     }
     
     public var method: Moya.Method {
-        return .get
+        switch self {
+        case .cars:
+            return .get
+        }
     }
     
     public var sampleData: Data {
-        return "Test data".data(using: .utf8)!
+        return "".data(using: .utf8)!
     }
     
     public var task: Moya.Task {
