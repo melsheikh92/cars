@@ -9,7 +9,7 @@
 import UIKit
 import JGProgressHUD
 import MJSnackBar
-class BaseViewController: UIViewController {
+class BaseViewController: UIViewController , Routable{
     let hud = JGProgressHUD(style: .dark)
     var snackBar: MJSnackBar?
     

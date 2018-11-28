@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0534DCF621AEC33200F01E53 /* SroryBoards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534DCF521AEC33100F01E53 /* SroryBoards.swift */; };
+		0534DCF821AEC35C00F01E53 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534DCF721AEC35C00F01E53 /* Routable.swift */; };
+		0534DCFA21AEC97000F01E53 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534DCF921AEC97000F01E53 /* APIConstants.swift */; };
+		0534DCFF21AECDFD00F01E53 /* AuctionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534DCFB21AECDFD00F01E53 /* AuctionInfo.swift */; };
+		0534DD0021AECDFD00F01E53 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534DCFC21AECDFD00F01E53 /* Cars.swift */; };
+		0534DD0121AECDFD00F01E53 /* CarsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534DCFD21AECDFD00F01E53 /* CarsResponseModel.swift */; };
+		0534DD0221AECDFD00F01E53 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534DCFE21AECDFD00F01E53 /* Error.swift */; };
 		0553BFBE219D5A2000D8962C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0553BFBB219D5A2000D8962C /* BaseViewModel.swift */; };
-		0553BFBF219D5A2000D8962C /* BaseChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0553BFBC219D5A2000D8962C /* BaseChatModel.swift */; };
 		0553BFC0219D5A2000D8962C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0553BFBD219D5A2000D8962C /* BaseViewController.swift */; };
 		0553BFC3219D5C5100D8962C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0553BFC2219D5C5100D8962C /* Colors.xcassets */; };
 		0553BFC8219D7A0500D8962C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0553BFC7219D7A0500D8962C /* UserData.swift */; };
@@ -33,9 +39,7 @@
 		05EE7F1C219C7E2600853256 /* UIImage+tintingColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F15219C7E2600853256 /* UIImage+tintingColor.swift */; };
 		05EE7F1E219C7E2600853256 /* UIView+resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F17219C7E2600853256 /* UIView+resources.swift */; };
 		05EE7F1F219C7E2600853256 /* UIviewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F18219C7E2600853256 /* UIviewController+extension.swift */; };
-		05EE7F21219C7EBC00853256 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F20219C7EBC00853256 /* Constants.swift */; };
 		05EE7F24219C7EFA00853256 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F23219C7EFA00853256 /* DeviceHelper.swift */; };
-		05EE7F26219C7F0400853256 /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7F25219C7F0400853256 /* ApiHelper.swift */; };
 		200A030D79FD8BBD679F009D /* Pods_Cars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F0FC4BB0D6D31AF1B71A0C /* Pods_Cars.framework */; };
 		73EBCBECA918E1B8F8BA31AE /* Pods_CarsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C4A02E9C9DBDB3F77CA303 /* Pods_CarsTests.framework */; };
 /* End PBXBuildFile section */
@@ -51,8 +55,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0534DCF521AEC33100F01E53 /* SroryBoards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SroryBoards.swift; sourceTree = "<group>"; };
+		0534DCF721AEC35C00F01E53 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		0534DCF921AEC97000F01E53 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		0534DCFB21AECDFD00F01E53 /* AuctionInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuctionInfo.swift; sourceTree = "<group>"; };
+		0534DCFC21AECDFD00F01E53 /* Cars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		0534DCFD21AECDFD00F01E53 /* CarsResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsResponseModel.swift; sourceTree = "<group>"; };
+		0534DCFE21AECDFD00F01E53 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		0553BFBB219D5A2000D8962C /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
-		0553BFBC219D5A2000D8962C /* BaseChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseChatModel.swift; sourceTree = "<group>"; };
 		0553BFBD219D5A2000D8962C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0553BFC2219D5C5100D8962C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		0553BFC7219D7A0500D8962C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
@@ -83,9 +93,7 @@
 		05EE7F15219C7E2600853256 /* UIImage+tintingColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+tintingColor.swift"; sourceTree = "<group>"; };
 		05EE7F17219C7E2600853256 /* UIView+resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+resources.swift"; sourceTree = "<group>"; };
 		05EE7F18219C7E2600853256 /* UIviewController+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIviewController+extension.swift"; sourceTree = "<group>"; };
-		05EE7F20219C7EBC00853256 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		05EE7F23219C7EFA00853256 /* DeviceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceHelper.swift; sourceTree = "<group>"; };
-		05EE7F25219C7F0400853256 /* ApiHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
 		30615CD1FBF0B576A96C6C30 /* Pods-Cars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cars/Pods-Cars.release.xcconfig"; sourceTree = "<group>"; };
 		63F0FC4BB0D6D31AF1B71A0C /* Pods_Cars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C4A02E9C9DBDB3F77CA303 /* Pods_CarsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,10 +122,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0534DCF421AEC32100F01E53 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				0534DCF521AEC33100F01E53 /* SroryBoards.swift */,
+				0534DCF721AEC35C00F01E53 /* Routable.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
 		0553BFBA219D5A0400D8962C /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				0553BFBC219D5A2000D8962C /* BaseChatModel.swift */,
 				0553BFBD219D5A2000D8962C /* BaseViewController.swift */,
 				0553BFBB219D5A2000D8962C /* BaseViewModel.swift */,
 			);
@@ -220,9 +236,6 @@
 				05EE7F05219C7D5200853256 /* Storyboards */,
 				05EE7F04219C7D4B00853256 /* Views */,
 				05EE7EE1219C7B2400853256 /* AppDelegate.swift */,
-				05EE7F20219C7EBC00853256 /* Constants.swift */,
-				05EE7EE5219C7B2400853256 /* Main.storyboard */,
-				05EE7EED219C7B2600853256 /* LaunchScreen.storyboard */,
 				05EE7EF0219C7B2600853256 /* Info.plist */,
 				05EE7EE8219C7B2400853256 /* Cars.xcdatamodeld */,
 			);
@@ -251,6 +264,8 @@
 		05EE7F05219C7D5200853256 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				05EE7EE5219C7B2400853256 /* Main.storyboard */,
+				05EE7EED219C7B2600853256 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -258,6 +273,7 @@
 		05EE7F06219C7D5C00853256 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				0534DCF921AEC97000F01E53 /* APIConstants.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -265,6 +281,10 @@
 		05EE7F07219C7D6500853256 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0534DCFB21AECDFD00F01E53 /* AuctionInfo.swift */,
+				0534DCFC21AECDFD00F01E53 /* Cars.swift */,
+				0534DCFE21AECDFD00F01E53 /* Error.swift */,
+				0534DCFD21AECDFD00F01E53 /* CarsResponseModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -302,7 +322,7 @@
 		05EE7F22219C7EDA00853256 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				05EE7F25219C7F0400853256 /* ApiHelper.swift */,
+				0534DCF421AEC32100F01E53 /* Routing */,
 				05EE7F23219C7EFA00853256 /* DeviceHelper.swift */,
 				0553BFC7219D7A0500D8962C /* UserData.swift */,
 			);
@@ -479,16 +499,22 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Deviice/Deviice.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
 				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Localize/Localize.framework",
 				"${BUILT_PRODUCTS_DIR}/Luminous/Luminous.framework",
 				"${BUILT_PRODUCTS_DIR}/MJSnackBar/MJSnackBar.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/PopItUp/PopItUp.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire+ObjectMapper/RxAlamofire_ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftEventBus/SwiftEventBus.framework",
 			);
@@ -497,16 +523,22 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Deviice.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Luminous.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJSnackBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopItUp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire_ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftEventBus.framework",
 			);
@@ -525,25 +557,29 @@
 				05EE7F1E219C7E2600853256 /* UIView+resources.swift in Sources */,
 				0553BFD5219DC07E00D8962C /* UIStackView+Separator.m in Sources */,
 				05EE7F1A219C7E2600853256 /* StringExtensions.swift in Sources */,
+				0534DCF621AEC33200F01E53 /* SroryBoards.swift in Sources */,
 				0553BFC8219D7A0500D8962C /* UserData.swift in Sources */,
+				0534DD0121AECDFD00F01E53 /* CarsResponseModel.swift in Sources */,
 				0553BFDE219DC52000D8962C /* gridCell.swift in Sources */,
 				05EE7EE4219C7B2400853256 /* ViewController.swift in Sources */,
+				0534DCF821AEC35C00F01E53 /* Routable.swift in Sources */,
 				0553BFBE219D5A2000D8962C /* BaseViewModel.swift in Sources */,
 				05EE7F1F219C7E2600853256 /* UIviewController+extension.swift in Sources */,
-				05EE7F26219C7F0400853256 /* ApiHelper.swift in Sources */,
+				0534DD0021AECDFD00F01E53 /* Cars.swift in Sources */,
+				0534DCFF21AECDFD00F01E53 /* AuctionInfo.swift in Sources */,
+				0534DCFA21AEC97000F01E53 /* APIConstants.swift in Sources */,
 				05EE7F1B219C7E2600853256 /* UIColor+Hex.swift in Sources */,
 				0553BFCA219D7AC500D8962C /* UINavigationBar+extentions.swift in Sources */,
 				0553BFDA219DC50B00D8962C /* TableCell.swift in Sources */,
 				05EE7EE2219C7B2400853256 /* AppDelegate.swift in Sources */,
 				0553BFCD219DA28300D8962C /* CardView.swift in Sources */,
 				05EE7F24219C7EFA00853256 /* DeviceHelper.swift in Sources */,
+				0534DD0221AECDFD00F01E53 /* Error.swift in Sources */,
 				0553BFE1219DC55600D8962C /* CarsViewModel.swift in Sources */,
-				0553BFBF219D5A2000D8962C /* BaseChatModel.swift in Sources */,
 				05EE7F1C219C7E2600853256 /* UIImage+tintingColor.swift in Sources */,
 				05EE7F19219C7E2600853256 /* Dictionary.swift in Sources */,
 				05EE7EEA219C7B2400853256 /* Cars.xcdatamodeld in Sources */,
 				0553BFC0219D5A2000D8962C /* BaseViewController.swift in Sources */,
-				05EE7F21219C7EBC00853256 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

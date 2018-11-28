@@ -14,7 +14,9 @@ target 'Cars' do
   pod 'Localize' , '~> 2.0.5'
   pod 'SwiftEventBus'
   pod 'Luminous'
-
+  pod 'Moya/RxSwift'
+  pod 'RealmSwift'
+  pod 'RxDataSources', '~> 3.0'
   # Pods for Cars
 
   target 'CarsTests' do
