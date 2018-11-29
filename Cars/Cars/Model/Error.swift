@@ -1,9 +1,10 @@
 
 import Foundation
-struct Error : Codable {
-    let code : String?
-    let en : String?
-    let ar : String?
+import RealmSwift
+class Error : Object , Decodable {
+    @objc  dynamic var code : String?
+    @objc  dynamic var en : String?
+    @objc  dynamic var ar : String?
     
     enum CodingKeys: String, CodingKey {
         
@@ -12,7 +13,8 @@ struct Error : Codable {
         case ar = "ar"
     }
     
-    init(from decoder: Decoder) throws {
+    public required convenience   init(from decoder: Decoder) throws {
+        self.init()
         let values = try decoder.container(keyedBy: CodingKeys.self)
         code = try values.decodeIfPresent(String.self, forKey: .code)
         en = try values.decodeIfPresent(String.self, forKey: .en)

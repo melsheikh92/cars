@@ -7,7 +7,10 @@
 //
 
 import Foundation
-class BaseViewModel<T>{
-
+protocol VieWModelType{
+    func doOnDidLoad()
+    func doOnWillAppear()
+    func doOnViewDidAppear()
+    func doOnViewDidDisappear()
     
 }

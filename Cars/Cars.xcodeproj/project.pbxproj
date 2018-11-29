@@ -26,6 +26,7 @@
 		0553BFDE219DC52000D8962C /* gridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0553BFDC219DC52000D8962C /* gridCell.swift */; };
 		0553BFDF219DC52000D8962C /* gridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0553BFDD219DC52000D8962C /* gridCell.xib */; };
 		0553BFE1219DC55600D8962C /* CarsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0553BFE0219DC55600D8962C /* CarsViewModel.swift */; };
+		05CE14D121AFF90100D6808E /* DefaultingJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE14D021AFF90100D6808E /* DefaultingJSONDecoder.swift */; };
 		05EE7EE2219C7B2400853256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7EE1219C7B2400853256 /* AppDelegate.swift */; };
 		05EE7EE4219C7B2400853256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE7EE3219C7B2400853256 /* ViewController.swift */; };
 		05EE7EE7219C7B2400853256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EE7EE5219C7B2400853256 /* Main.storyboard */; };
@@ -76,6 +77,7 @@
 		0553BFDC219DC52000D8962C /* gridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gridCell.swift; sourceTree = "<group>"; };
 		0553BFDD219DC52000D8962C /* gridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = gridCell.xib; sourceTree = "<group>"; };
 		0553BFE0219DC55600D8962C /* CarsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewModel.swift; sourceTree = "<group>"; };
+		05CE14D021AFF90100D6808E /* DefaultingJSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultingJSONDecoder.swift; sourceTree = "<group>"; };
 		05EE7EDE219C7B2400853256 /* Cars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05EE7EE1219C7B2400853256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05EE7EE3219C7B2400853256 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 				05EE7F17219C7E2600853256 /* UIView+resources.swift */,
 				05EE7F18219C7E2600853256 /* UIviewController+extension.swift */,
 				0553BFC9219D7AC500D8962C /* UINavigationBar+extentions.swift */,
+				05CE14D021AFF90100D6808E /* DefaultingJSONDecoder.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -580,6 +583,7 @@
 				0553BFDA219DC50B00D8962C /* TableCell.swift in Sources */,
 				05EE7EE2219C7B2400853256 /* AppDelegate.swift in Sources */,
 				0553BFCD219DA28300D8962C /* CardView.swift in Sources */,
+				05CE14D121AFF90100D6808E /* DefaultingJSONDecoder.swift in Sources */,
 				05EE7F24219C7EFA00853256 /* DeviceHelper.swift in Sources */,
 				0534DD0221AECDFD00F01E53 /* Error.swift in Sources */,
 				0553BFE1219DC55600D8962C /* CarsViewModel.swift in Sources */,
